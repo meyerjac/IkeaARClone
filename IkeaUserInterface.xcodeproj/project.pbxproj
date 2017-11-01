@@ -12,6 +12,7 @@
 		853F626B1FA9BF950079524D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853F62691FA9BF950079524D /* Main.storyboard */; };
 		853F626D1FA9BF950079524D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853F626C1FA9BF950079524D /* Assets.xcassets */; };
 		853F62701FA9BF950079524D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853F626E1FA9BF950079524D /* LaunchScreen.storyboard */; };
+		853F62781FA9C3DE0079524D /* itemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853F62771FA9C3DE0079524D /* itemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		853F626C1FA9BF950079524D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		853F626F1FA9BF950079524D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		853F62711FA9BF950079524D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		853F62771FA9C3DE0079524D /* itemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				853F626C1FA9BF950079524D /* Assets.xcassets */,
 				853F626E1FA9BF950079524D /* LaunchScreen.storyboard */,
 				853F62711FA9BF950079524D /* Info.plist */,
+				853F62771FA9C3DE0079524D /* itemCell.swift */,
 			);
 			path = IkeaUserInterface;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				853F62681FA9BF950079524D /* ViewController.swift in Sources */,
+				853F62781FA9C3DE0079524D /* itemCell.swift in Sources */,
 				853F62661FA9BF950079524D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,7 +282,7 @@
 				DEVELOPMENT_TEAM = C335HXA92D;
 				INFOPLIST_FILE = IkeaUserInterface/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jacksonmeyer.IkeaUserInterface;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacksonmeyer.Planets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,7 +297,7 @@
 				DEVELOPMENT_TEAM = C335HXA92D;
 				INFOPLIST_FILE = IkeaUserInterface/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jacksonmeyer.IkeaUserInterface;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacksonmeyer.Planets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
